@@ -7,25 +7,29 @@ body{
 .container{
 	max-width: 800px;
 }
-.head{
+/*.head{
 	position: sticky;
 	top: 0;
-}
+}*/
 h1{
 	font-family: oswald, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 2.5em;	
 }
-display{
-	margin: 2px 0px;
-	padding: 5px;		
+.display{
+	margin: 5px 0px;
+}
+.row {
+  margin: 2px 0px;
+  padding: 5px;
+  line-height: 50px;
 }
 .online{
 	background: #aaccbb;	
 }
 .offline{
-	background: #556699;
+	background: #aabbcc;
 }
 .logo {
   max-width: 50px;
